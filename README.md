@@ -59,8 +59,8 @@
 
 <div align="center">
 
-[![Evolution X](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Evolution-X&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Evolution-X)
-[![Uptimer Buddy](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Uptimer-Buddy&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Uptimer-Buddy)
+[![Evolution X](https://github-readme-stats-eight-chi-48.vercel.app/api/pin/?username=arpandevv&repo=Evolution-X&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Evolution-X)
+[![Uptimer Buddy](https://github-readme-stats-eight-chi-48.vercel.app/api/pin/?username=arpandevv&repo=Uptimer-Buddy&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Uptimer-Buddy)
 
 </div>
 
@@ -95,10 +95,10 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpandevv&show_icons=true&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41&count_private=true" />
+<img width="49%" src="https://github-readme-stats-eight-chi-48.vercel.app/api?username=arpandevv&show_icons=true&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41&count_private=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpandevv&theme=chartreuse-dark&border=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&layout=compact&title_color=00ff41&langs_count=6" />
+<img width="40%" src="https://github-readme-stats-eight-chi-48.vercel.app/api/top-langs/?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&layout=compact&title_color=00ff41&langs_count=6" />
 
 </div>
 
@@ -108,7 +108,7 @@
 
 <div align="center">
 
-[![Arpan's WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&layout=compact)](https://wakatime.com/@arpandevv)
+[![Arpan's WakaTime Stats](https://github-readme-stats-eight-chi-48.vercel.app/api/wakatime?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&layout=compact)](https://wakatime.com/@arpandevv)
 
 > ⚠️ **Setup:** Go to [wakatime.com](https://wakatime.com) → install the plugin in VS Code → replace `arpandevv` above with your WakaTime username
 
