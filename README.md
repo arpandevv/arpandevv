@@ -34,8 +34,8 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║  NAME     : Arpan Singh                                      ║
 ║  ROLE     : Discord Bot Developer                            ║
-║  COLLEGE  : BCA Sem 2 — Amity University                     ║
-║  PROJECT  : Evolution X Bot [105★] & Razor Bot               ║
+║  COLLEGE  : BCA Sem 2 - Amity University                     ║
+║  PROJECT  : Discord.js-v14-Template [105*] & Razor Bot       ║
 ║  LEARNING : Python + Advanced Node.js                        ║
 ║  EMAIL    : jarvisexe@proton.me                              ║
 ║  STATUS   : [██████████] ONLINE                              ║
