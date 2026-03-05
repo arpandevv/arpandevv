@@ -95,10 +95,12 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-eight-chi-48.vercel.app/api?username=arpandevv&show_icons=true&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpandevv&theme=chartreuse-dark&border=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
+<img width="48%" src="https://github-readme-stats-eight-chi-48.vercel.app/api?username=arpandevv&show_icons=true&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41&count_private=true" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpandevv&theme=chartreuse-dark&border=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
 
-<img width="40%" src="https://github-readme-stats-eight-chi-48.vercel.app/api/top-langs/?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&layout=compact&title_color=00ff41&langs_count=6" />
+<br/><br/>
+
+<img width="48%" src="https://github-readme-stats-eight-chi-48.vercel.app/api/top-langs/?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&layout=compact&title_color=00ff41&langs_count=6" />
 
 </div>
 
