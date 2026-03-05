@@ -130,18 +130,6 @@
 
 ---
 
-## `> now_playing --spotify`
-
-<div align="center">
-
-[![Spotify](https://novatorem-arpandevv.vercel.app/api/spotify)](https://open.spotify.com)
-
-> ⚠️ **Setup:** Fork [novatorem/novatorem](https://github.com/novatorem/novatorem) → deploy to Vercel → connect your Spotify account → replace the URL above
-
-</div>
-
----
-
 ## `> ./connect.sh`
 
 <div align="center">
