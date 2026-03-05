@@ -112,8 +112,6 @@
 
 [![Arpan's WakaTime Stats](https://github-readme-stats-eight-chi-48.vercel.app/api/wakatime?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&layout=compact)](https://wakatime.com/@arpandevv)
 
-> ⚠️ **Setup:** Go to [wakatime.com](https://wakatime.com) → install the plugin in VS Code → replace `arpandevv` above with your WakaTime username
-
 </div>
 
 ---
