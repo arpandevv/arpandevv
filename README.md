@@ -1,130 +1,180 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Arpan%20Singh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Discord%20Bot%20Developer%20%7C%20BCA%20%40%20Amity%20University&descAlignY=55&descSize=16"/>
+```
+█████╗ ██████╗ ██████╗  █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗  ██║
+███████║██████╔╝██████╔╝███████║██╔██╗ ██║
+██╔══██║██╔══██╗██╔═══╝ ██╔══██║██║╚██╗██║
+██║  ██║██║  ██║██║     ██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝
+```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Arpan+%F0%9F%91%8B;Discord+Bot+Developer+%E2%9A%A1;Building+Evolution+X+%F0%9F%A4%96;Always+learning+something+new+%F0%9F%8C%B1)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00ff41&height=3&section=header"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Initializing+profile...+%E2%96%88;%3E+Loading+Arpan+Singh...+%5BDONE%5D;%3E+Discord+Bot+Developer+%2F%2F+BCA+%40+Amity;%3E+Building+Evolution+X+%F0%9F%A4%96...;%3E+Status%3A+ONLINE+%E2%9C%85)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00ff41&height=3"/>
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=arpandevv&style=for-the-badge&color=6e40c9&label=PROFILE+VIEWS)](https://github.com/arpandevv)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wAp6Wr2emN)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/arpan.era)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=arpandevv.arpandevv&left_color=black&right_color=00ff41&left_text=SYSTEM%20VISITORS)
+[![Discord](https://img.shields.io/badge/-%3E%20JOIN%20SERVER-00ff41?style=flat-square&logo=discord&logoColor=black)](https://discord.gg/wAp6Wr2emN)
+[![Instagram](https://img.shields.io/badge/-%3E%20INSTAGRAM-00ff41?style=flat-square&logo=instagram&logoColor=black)](https://www.instagram.com/arpan.era)
 
 </div>
 
 ---
 
-<img align="right" width="360" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif" alt="coding gif" />
-
-## 🧑‍💻 About Me
-
-```js
-const arpan = {
-  name: "Arpan Singh",
-  education: "BCA Sem 2 @ Amity University",
-  role: "Discord Bot Developer",
-  currentProject: "Evolution X & Razor Bot",
-  learning: ["Python", "Advanced Node.js"],
-  contact: "jarvisexe@proton.me",
-  funFact: "A group of flamingos is called a flamboyance 🦩"
-};
+```zsh
+┌──(arpan㉿matrix)-[~]
+└─$ whoami
 ```
 
-- 🔭 Currently building **[Razor Bot](https://razorbot.buzz/buy)** — a premium Discord bot
-- ⚡ Creator of **Evolution X** — 105+ stars on GitHub
-- 🌱 Currently learning **Python & advanced backend patterns**
-- 💬 Ask me about **Discord.js, bot debugging, MongoDB, Node.js**
-- 📫 Reach me at **jarvisexe@proton.me**
+```
+╔══════════════════════════════════════════════════════════════╗
+║  NAME     : Arpan Singh                                      ║
+║  ROLE     : Discord Bot Developer                            ║
+║  COLLEGE  : BCA Sem 2 — Amity University                     ║
+║  PROJECT  : Evolution X Bot [105★] & Razor Bot               ║
+║  LEARNING : Python + Advanced Node.js                        ║
+║  EMAIL    : jarvisexe@proton.me                              ║
+║  STATUS   : [██████████] ONLINE                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
-<br clear="right"/>
+```zsh
+┌──(arpan㉿matrix)-[~]
+└─$ cat current_mission.txt
+```
+```
+> Building Razor Bot         [██████████] 100%
+> Learning Python            [███████░░░]  70%
+> Open Source Contributions  [████░░░░░░]  40%
+> World Domination           [█░░░░░░░░░]  10%
+```
 
 ---
 
-## 🚀 Featured Projects
+## `> ls ./projects`
 
 <div align="center">
 
-[![Evolution X](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Evolution-X&theme=tokyonight&border_color=6e40c9&border_radius=10)](https://github.com/arpandevv/Evolution-X)
-[![Uptimer Buddy](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Uptimer-Buddy&theme=tokyonight&border_color=6e40c9&border_radius=10)](https://github.com/arpandevv/Uptimer-Buddy)
+[![Evolution X](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Evolution-X&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Evolution-X)
+[![Uptimer Buddy](https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Uptimer-Buddy&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41)](https://github.com/arpandevv/Uptimer-Buddy)
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## `> cat tech_stack.json`
 
 <div align="center">
 
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-**Backend & Runtime**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-
-**Databases**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-**Tools & Others**
-
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=00ff41)
+![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=00ff41)
+![Express](https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=00ff41)
+![MongoDB](https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/MySQL-000?style=for-the-badge&logo=mysql&logoColor=00ff41)
+![Redis](https://img.shields.io/badge/Redis-000?style=for-the-badge&logo=redis&logoColor=00ff41)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=00ff41)
+![AWS](https://img.shields.io/badge/AWS-000?style=for-the-badge&logo=amazonaws&logoColor=00ff41)
+![Azure](https://img.shields.io/badge/Azure-000?style=for-the-badge&logo=microsoftazure&logoColor=00ff41)
+![GCP](https://img.shields.io/badge/GCP-000?style=for-the-badge&logo=googlecloud&logoColor=00ff41)
+![Nginx](https://img.shields.io/badge/Nginx-000?style=for-the-badge&logo=nginx&logoColor=00ff41)
+![Discord.js](https://img.shields.io/badge/Discord.js-000?style=for-the-badge&logo=discord&logoColor=00ff41)
+![PHP](https://img.shields.io/badge/PHP-000?style=for-the-badge&logo=php&logoColor=00ff41)
+![Django](https://img.shields.io/badge/Django-000?style=for-the-badge&logo=django&logoColor=00ff41)
+![Flask](https://img.shields.io/badge/Flask-000?style=for-the-badge&logo=flask&logoColor=00ff41)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## `> ./run stats.sh`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpandevv&show_icons=true&theme=tokyonight&border_color=6e40c9&border_radius=10&hide_border=false&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpandevv&theme=tokyonight&border=6e40c9&border_radius=10" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpandevv&show_icons=true&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&icon_color=00ff41&count_private=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpandevv&theme=chartreuse-dark&border=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpandevv&theme=tokyonight&border_color=6e40c9&border_radius=10&layout=compact&langs_count=6" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&layout=compact&title_color=00ff41&langs_count=6" />
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## `> cat wakatime_activity.log`
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=arpandevv&theme=tokyonight&no-frame=true&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+[![Arpan's WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=arpandevv&theme=chartreuse-dark&border_color=00ff41&border_radius=0&title_color=00ff41&layout=compact)](https://wakatime.com/@arpandevv)
+
+> ⚠️ **Setup:** Go to [wakatime.com](https://wakatime.com) → install the plugin in VS Code → replace `arpandevv` above with your WakaTime username
 
 </div>
 
 ---
 
-## 🤝 Connect With Me
+## `> snake --eat-contributions`
 
 <div align="center">
 
-[![Discord Server](https://img.shields.io/badge/Discord%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wAp6Wr2emN)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/arpan.era)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/nitrixexe)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jarvisexe@proton.me)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpandevv/arpandevv/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpandevv/arpandevv/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arpandevv/arpandevv/output/github-contribution-grid-snake.svg" />
+</picture>
+
+> ⚠️ **Setup:** Create `.github/workflows/snake.yml` in your profile repo with this content:
+
+```yaml
+name: Generate Snake
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: arpandevv
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</div>
+
+---
+
+## `> now_playing --spotify`
+
+<div align="center">
+
+[![Spotify](https://novatorem-arpandevv.vercel.app/api/spotify)](https://open.spotify.com)
+
+> ⚠️ **Setup:** Fork [novatorem/novatorem](https://github.com/novatorem/novatorem) → deploy to Vercel → connect your Spotify account → replace the URL above
+
+</div>
+
+---
+
+## `> ./connect.sh`
+
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=00ff41)](https://discord.gg/wAp6Wr2emN)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=00ff41)](https://www.instagram.com/arpan.era)
+[![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=00ff41)](https://www.youtube.com/c/nitrixexe)
+[![Email](https://img.shields.io/badge/ProtonMail-000000?style=for-the-badge&logo=protonmail&logoColor=00ff41)](mailto:jarvisexe@proton.me)
 
 </div>
 
@@ -132,8 +182,17 @@ const arpan = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00ff41&height=3"/>
 
-**⭐ Star my repos if you find them useful!**
+```
+[SYSTEM] Session terminated. Thanks for visiting. — ARPAN
+```
+
+```
+> logout
+Connection to matrix closed.
+```
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00ff41&height=3"/>
 
 </div>
