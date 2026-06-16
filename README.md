@@ -73,8 +73,8 @@ I care deeply about **clean architecture**, **great DX**, and building tools tha
 <a href="https://github.com/arpandevv/Discord.js-v14-Template">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Discord.js-v14-Template&theme=midnight-purple&border_color=6366f1&title_color=818cf8&icon_color=c084fc&border_radius=10&description_lines_count=2"/>
 </a>
-<a href="https://github.com/arpandevv/Evolution-X">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Evolution-X&theme=midnight-purple&border_color=6366f1&title_color=818cf8&icon_color=c084fc&border_radius=10&description_lines_count=2"/>
+<a href="https://github.com/arpandevv/Paanee">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Paanee&theme=midnight-purple&border_color=6366f1&title_color=818cf8&icon_color=c084fc&border_radius=10&description_lines_count=2"/>
 </a>
 <a href="https://github.com/arpandevv/Uptimer-Buddy">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=arpandevv&repo=Uptimer-Buddy&theme=midnight-purple&border_color=6366f1&title_color=818cf8&icon_color=c084fc&border_radius=10&description_lines_count=2"/>
