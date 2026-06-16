@@ -1,122 +1,181 @@
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d0d1a"/>
-      <stop offset="50%" style="stop-color:#0f0a2a"/>
-      <stop offset="100%" style="stop-color:#0a0a1f"/>
+    <radialGradient id="bgCenter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#12082e"/>
+      <stop offset="100%" stop-color="#060612"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="110%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="45%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+      <animate attributeName="x1" values="0%;-30%;0%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="110%;140%;110%" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#818cf8"/>
-      <stop offset="50%" style="stop-color:#c084fc"/>
-      <stop offset="100%" style="stop-color:#f472b6"/>
-    </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:0"/>
-      <stop offset="30%" style="stop-color:#818cf8;stop-opacity:1"/>
-      <stop offset="70%" style="stop-color:#f472b6;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:0"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="nameGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="subtleGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect width="900" height="300" rx="12"/>
+    </clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="280" fill="url(#bg)" rx="16"/>
+  <g clip-path="url(#clip)">
 
-  <!-- Animated grid lines -->
-  <g opacity="0.07">
-    <line x1="0" y1="40" x2="900" y2="40" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="0" y1="80" x2="900" y2="80" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="0" y1="120" x2="900" y2="120" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="0" y1="160" x2="900" y2="160" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="0" y1="200" x2="900" y2="200" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="0" y1="240" x2="900" y2="240" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="100" y1="0" x2="100" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="200" y1="0" x2="200" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="300" y1="0" x2="300" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="400" y1="0" x2="400" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="500" y1="0" x2="500" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="600" y1="0" x2="600" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="700" y1="0" x2="700" y2="280" stroke="#818cf8" stroke-width="0.5"/>
-    <line x1="800" y1="0" x2="800" y2="280" stroke="#818cf8" stroke-width="0.5"/>
+  <rect width="900" height="300" fill="url(#bgCenter)"/>
+
+  <!-- Aurora blobs -->
+  <ellipse cx="180" cy="80" rx="220" ry="90" fill="#7c3aed" opacity="0.07" filter="url(#softGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;30,20;-10,30;0,0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="220;260;200;220" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="720" cy="200" rx="200" ry="80" fill="#db2777" opacity="0.07" filter="url(#softGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-25,15;20,-10;0,0" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="150" rx="180" ry="70" fill="#4f46e5" opacity="0.05" filter="url(#softGlow)">
+    <animate attributeName="ry" values="70;90;60;70" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Hex grid -->
+  <g opacity="0.04" stroke="#a78bfa" stroke-width="0.5" fill="none">
+    <polygon points="60,20 80,32 80,56 60,68 40,56 40,32"/>
+    <polygon points="120,20 140,32 140,56 120,68 100,56 100,32"/>
+    <polygon points="180,20 200,32 200,56 180,68 160,56 160,32"/>
+    <polygon points="240,20 260,32 260,56 240,68 220,56 220,32"/>
+    <polygon points="300,20 320,32 320,56 300,68 280,56 280,32"/>
+    <polygon points="600,20 620,32 620,56 600,68 580,56 580,32"/>
+    <polygon points="660,20 680,32 680,56 660,68 640,56 640,32"/>
+    <polygon points="720,20 740,32 740,56 720,68 700,56 700,32"/>
+    <polygon points="780,20 800,32 800,56 780,68 760,56 760,32"/>
+    <polygon points="840,20 860,32 860,56 840,68 820,56 820,32"/>
+    <polygon points="30,68 50,80 50,104 30,116 10,104 10,80"/>
+    <polygon points="90,68 110,80 110,104 90,116 70,104 70,80"/>
+    <polygon points="150,68 170,80 170,104 150,116 130,104 130,80"/>
+    <polygon points="630,68 650,80 650,104 630,116 610,104 610,80"/>
+    <polygon points="690,68 710,80 710,104 690,116 670,104 670,80"/>
+    <polygon points="750,68 770,80 770,104 750,116 730,104 730,80"/>
+    <polygon points="810,68 830,80 830,104 810,116 790,104 790,80"/>
+    <polygon points="870,68 890,80 890,104 870,116 850,104 850,80"/>
+    <polygon points="60,224 80,236 80,260 60,272 40,260 40,236"/>
+    <polygon points="120,224 140,236 140,260 120,272 100,260 100,236"/>
+    <polygon points="180,224 200,236 200,260 180,272 160,260 160,236"/>
+    <polygon points="720,224 740,236 740,260 720,272 700,260 700,236"/>
+    <polygon points="780,224 800,236 800,260 780,272 760,260 760,236"/>
+    <polygon points="840,224 860,236 860,260 840,272 820,260 820,236"/>
   </g>
 
-  <!-- Floating orbs -->
-  <circle cx="780" cy="60" r="80" fill="#6366f1" opacity="0.06" filter="url(#softGlow)">
-    <animate attributeName="cy" values="60;80;60" dur="6s" repeatCount="indefinite"/>
+  <!-- Twinkling stars -->
+  <circle cx="82" cy="42" r="1.5" fill="#e879f9" opacity="0.9"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="815" cy="58" r="2" fill="#a78bfa" opacity="0.8"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="340" cy="25" r="1.8" fill="#fb7185" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="688" cy="270" r="2" fill="#818cf8" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="44" cy="255" r="1.5" fill="#e879f9" opacity="0.6"><animate attributeName="opacity" values="0.6;0.9;0.6" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="858" cy="188" r="1.8" fill="#fb7185" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="162" cy="18" r="1" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="445" cy="12" r="1" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="22" r="1.2" fill="#fff" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="18" cy="155" r="1" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.6;0.3" dur="5.5s" repeatCount="indefinite"/></circle>
+  <circle cx="882" cy="240" r="1" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="500" cy="285" r="1.2" fill="#a78bfa" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="280" cy="290" r="1" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="8" r="1" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+
+  <!-- Drifting orbs -->
+  <circle cx="130" cy="150" r="55" fill="#7c3aed" opacity="0.08" filter="url(#softGlow)">
+    <animate attributeName="cy" values="150;130;160;150" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="55;65;50;55" dur="8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="120" cy="200" r="60" fill="#c084fc" opacity="0.06" filter="url(#softGlow)">
-    <animate attributeName="cy" values="200;180;200" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="140" r="100" fill="#818cf8" opacity="0.04" filter="url(#softGlow)">
-    <animate attributeName="r" values="100;115;100" dur="7s" repeatCount="indefinite"/>
+  <circle cx="770" cy="150" r="50" fill="#db2777" opacity="0.08" filter="url(#softGlow)">
+    <animate attributeName="cy" values="150;170;140;150" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="50;42;58;50" dur="10s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Scattered star dots -->
-  <g fill="#ffffff">
-    <circle cx="50" cy="30" r="1" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="250" r="1.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="350" cy="20" r="1" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="260" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="100" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="30" cy="140" r="1" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="550" cy="265" r="1.5" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="160" cy="55" r="1" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="740" cy="170" r="1" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- Left accent bracket -->
-  <g stroke="#818cf8" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-    <path d="M60 90 L44 90 L44 190 L60 190"/>
-  </g>
-  <!-- Right accent bracket -->
-  <g stroke="#f472b6" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-    <path d="M840 90 L856 90 L856 190 L840 190"/>
-  </g>
-
-  <!-- Small tag labels -->
-  <text x="44" y="84" font-family="monospace" font-size="10" fill="#818cf8" opacity="0.7">&lt;dev&gt;</text>
-  <text x="830" y="84" font-family="monospace" font-size="10" fill="#f472b6" opacity="0.7">&lt;/dev&gt;</text>
-
-  <!-- Main name -->
-  <text x="450" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="900" text-anchor="middle" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="2">
-    Arpan Singh
-  </text>
-
-  <!-- Animated underline -->
-  <rect x="200" y="148" width="500" height="2" fill="url(#lineGrad)" rx="1">
-    <animate attributeName="width" values="0;500;500" dur="1.5s" fill="freeze"/>
-    <animate attributeName="x" values="450;200;200" dur="1.5s" fill="freeze"/>
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="1.5" fill="#a78bfa" opacity="0.25">
+    <animate attributeName="y" values="-2;302" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.05;0.95;1" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Role line -->
-  <text x="450" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8" letter-spacing="5">
-    DISCORD BOT DEVELOPER  ·  BUILDER  ·  BCA @ AMITY
-  </text>
+  <!-- Circuit lines top-left -->
+  <g stroke="#818cf8" stroke-width="0.8" fill="none" opacity="0.25">
+    <path d="M0 40 L55 40 L55 20 L120 20"/>
+    <path d="M0 60 L30 60 L30 90 L80 90"/>
+    <circle cx="55" cy="40" r="2.5" fill="#818cf8" opacity="0.5"/>
+    <circle cx="30" cy="60" r="2" fill="#818cf8" opacity="0.4"/>
+    <circle cx="80" cy="90" r="3" fill="#818cf8" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- Circuit lines top-right -->
+  <g stroke="#f472b6" stroke-width="0.8" fill="none" opacity="0.25">
+    <path d="M900 40 L845 40 L845 20 L780 20"/>
+    <path d="M900 60 L870 60 L870 90 L820 90"/>
+    <circle cx="845" cy="40" r="2.5" fill="#f472b6" opacity="0.5"/>
+    <circle cx="870" cy="60" r="2" fill="#f472b6" opacity="0.4"/>
+    <circle cx="820" cy="90" r="3" fill="#f472b6" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- Circuit lines bottom -->
+  <g stroke="#818cf8" stroke-width="0.8" fill="none" opacity="0.2">
+    <path d="M0 255 L40 255 L40 270 L100 270"/>
+    <circle cx="40" cy="255" r="2" fill="#818cf8" opacity="0.4"/>
+  </g>
+  <g stroke="#f472b6" stroke-width="0.8" fill="none" opacity="0.2">
+    <path d="M900 255 L860 255 L860 270 L800 270"/>
+    <circle cx="860" cy="255" r="2" fill="#f472b6" opacity="0.4"/>
+  </g>
 
-  <!-- Bottom status bar -->
-  <rect x="0" y="254" width="900" height="26" fill="#0f0f1e" rx="0"/>
-  <rect x="0" y="268" width="900" height="12" fill="#0f0f1e" rx="0"/>
-  <!-- Status dots -->
-  <circle cx="30" cy="267" r="5" fill="#22c55e" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="42" y="271" font-family="monospace" font-size="10" fill="#64748b">STATUS: ONLINE</text>
-  <text x="200" y="271" font-family="monospace" font-size="10" fill="#64748b">|  LOCATION: LUCKNOW, IN</text>
-  <text x="420" y="271" font-family="monospace" font-size="10" fill="#64748b">|  OPEN TO: COLLABS ✓</text>
-  <text x="620" y="271" font-family="monospace" font-size="10" fill="#64748b">|  STACK: JS · NODE · PYTHON</text>
+  <!-- Name halo -->
+  <ellipse cx="450" cy="138" rx="280" ry="50" fill="#7c3aed" opacity="0.08" filter="url(#softGlow)"/>
 
-  <!-- Corner decorations -->
-  <g stroke="#6366f1" stroke-width="1.5" fill="none" opacity="0.5">
-    <path d="M0 20 L0 0 L20 0"/>
-    <path d="M880 0 L900 0 L900 20"/>
-    <path d="M0 260 L0 280 L20 280"/>
-    <path d="M880 280 L900 280 L900 260"/>
+  <!-- Name shadow -->
+  <text x="451" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="72" font-weight="900" text-anchor="middle" fill="#7c3aed" opacity="0.35" letter-spacing="3">Arpan Singh</text>
+  <!-- Name main -->
+  <text x="450" y="153" font-family="'Segoe UI',Arial,sans-serif" font-size="72" font-weight="900" text-anchor="middle" fill="url(#nameGrad)" filter="url(#nameGlow)" letter-spacing="3">Arpan Singh</text>
+
+  <!-- Animated underline -->
+  <rect x="450" y="166" width="0" height="2.5" fill="url(#nameGrad)" rx="1.5" filter="url(#subtleGlow)">
+    <animate attributeName="x" values="450;215;215" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <animate attributeName="width" values="0;470;470" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Subtitle dots -->
+  <circle cx="316" cy="194" r="2" fill="#e879f9" opacity="0.8"/>
+  <circle cx="584" cy="194" r="2" fill="#e879f9" opacity="0.8"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="198" font-family="'Segoe UI',Arial,sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#94a3b8" letter-spacing="5">DISCORD BOT DEV  ·  NODE.JS  ·  PYTHON  ·  BCA @ AMITY</text>
+
+  <!-- Status pills -->
+  <rect x="338" y="214" width="108" height="22" rx="11" fill="#7c3aed" opacity="0.2" stroke="#a78bfa" stroke-width="0.8"/>
+  <circle cx="352" cy="225" r="4" fill="#22c55e" opacity="0.9"><animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="362" y="229" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c4b5fd" letter-spacing="0.5">Open to collabs</text>
+  <rect x="456" y="214" width="108" height="22" rx="11" fill="#db2777" opacity="0.15" stroke="#f472b6" stroke-width="0.8"/>
+  <text x="510" y="229" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fda4af" text-anchor="middle" letter-spacing="0.5">📍 Lucknow, India</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="270" width="900" height="30" fill="#050510" opacity="0.7"/>
+  <rect x="0" y="270" width="0" height="2" fill="url(#nameGrad)">
+    <animate attributeName="width" values="0;900" dur="3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <circle cx="25" cy="285" r="4.5" fill="#22c55e" filter="url(#subtleGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="37" y="289" font-family="'Courier New',monospace" font-size="10" fill="#4ade80" letter-spacing="0.5">ONLINE</text>
+  <text x="105" y="289" font-family="'Courier New',monospace" font-size="10" fill="#334155" letter-spacing="0.3">·  arpandevv  ·  github.com  ·  Lucknow 🇮🇳  ·  Building Razor Bot 🤖</text>
+
+  <!-- Corner accents -->
+  <g stroke="#818cf8" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M0 18 L0 0 L18 0"/>
+    <path d="M882 0 L900 0 L900 18"/>
+  </g>
+  <g stroke="#f472b6" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M0 282 L0 300 L18 300"/>
+    <path d="M882 300 L900 300 L900 282"/>
+  </g>
+
   </g>
 </svg>
