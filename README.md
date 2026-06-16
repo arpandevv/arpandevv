@@ -94,7 +94,6 @@ I care deeply about **clean architecture**, **great DX**, and building tools tha
 <br/><br/>
 
 <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpandevv&theme=midnight-purple&border_color=6366f1&layout=compact&title_color=818cf8&langs_count=6&border_radius=10"/>
-<img width="48%" src="https://github-profile-trophy.vercel.app/?username=arpandevv&theme=onestar&column=4&margin-w=8&no-bg=true&no-frame=true"/>
 </div>
 
 ---
